@@ -1,0 +1,38 @@
+.page {
+  margin: 20px 40px;
+  background-color: #F8F4E6;
+}
+
+.heading {
+  font-size: 60px;
+  color: #814E11;
+}
+
+.description {
+  font-size: 20px;
+}
+
+#groupHeading {
+  color: #814E11;
+}
+
+#group-by {
+  background-color: #EFE2C1;
+  border-color: black;
+}
+
+.button {
+  background-color: #EFE2C1;
+  color: black;
+  border-color: black;
+}
+
+.button:hover {
+  color: white;
+  background-color: #9B7438;
+}
+
+.button:focus {
+  color: white;
+  background-color: #9B7438;
+}
