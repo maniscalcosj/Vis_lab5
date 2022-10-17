@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+
+    <meta charset="utf-8" />
+
+    <title>Maniscalco_lab5_UpdatePattern</title>
+    
+    <!-- Load CSS files -->
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- You CSS rules-->
+    <link rel="stylesheet" href="style.css" />
+   
+    <!-- Load Javascript files -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+  </head>
+  
+  <body class="page">
+    
+    <h1 class="heading"> Coffee House Chains </h1>
+    <p class="description"> A ranking of selected leading coffee house chains worldwide </p>
+    
+    <label for="group-by" id="groupHeading">Group By</label>
+    
+    <div class="row">
+      <div class="column">
+        <select id="group-by">
+          <option value="stores">Stores worldwide</option>
+          <option value="revenue">Revenue in billion U.S. dollars</option>
+        </select>
+      </div>
+      
+      <div class="column">
+        <button class="button" id="sortingButton" value="-1"> &#8597 Sort </button>
+      </div>
+    </div>
+    
+    <div class="barChart"></div>
+    
+  </body>
+
+  
+</html>
